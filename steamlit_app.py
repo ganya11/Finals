@@ -18,7 +18,7 @@ st.write(
 @st.cache_data
 def load_data():
     """Load movies dataset."""
-    return pd.read_csv("data/movies_genres_summary.csv")
+    return pd.read_csv("movies_genres_summary.csv")
 
 # Load the dataset
 df = load_data()
